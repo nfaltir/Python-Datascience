@@ -1,2 +1,2 @@
-:snake: Arrary manipulation with Python
+:snake: Array manipulation with Python
 =========================================
