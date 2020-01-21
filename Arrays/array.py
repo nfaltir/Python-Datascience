@@ -12,6 +12,10 @@ print("orignal Data:", myData)
 # get length
 length = len(myData)
 
+# pop, remove data [] and return new list
+popList = myData.pop(12)
+print("Pop list:", popList)
+print("test,14 is now removed:", myData)
 
 # get the total sum
 total = sum(myData)
