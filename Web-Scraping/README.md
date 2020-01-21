@@ -1,4 +1,4 @@
-:shovel: Web Scraping with Python :snake:
+:spider: Web Scraping with Python :snake:
 ===================================================
 
 
