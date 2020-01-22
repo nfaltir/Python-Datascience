@@ -32,7 +32,7 @@ avg = total/length
 # get standard deviation
 sd = statistics.stdev(myData)
 
-# append
+
 
 
 print("\nLength of list:", length)
@@ -42,3 +42,4 @@ print("Max number:", maxNum)
 print("Min number:", minNum)
 print("Average:", round(avg, 2))
 print("Standard deviation:", round(sd, 2))
+
