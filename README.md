@@ -18,5 +18,5 @@ Folders :seedling:
     - HTML targeting
     - Data Structures
 
-4. Loan App
+4. Limitations 
 
