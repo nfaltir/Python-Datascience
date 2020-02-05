@@ -12,6 +12,9 @@ print("orignal Data:", myData)
 # get length
 length = len(myData)
 
+phrase = "Giraffe Academy"
+print(phrase[0])
+
 # pop, remove data [] and return new list
 popList = myData.pop(12)
 print("Pop list:", popList)
@@ -32,7 +35,7 @@ avg = total/length
 # get standard deviation
 sd = statistics.stdev(myData)
 
-
+print("Sort Data:", myData.sort())
 
 
 print("\nLength of list:", length)
