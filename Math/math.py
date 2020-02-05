@@ -1,18 +1,12 @@
-#main function
-def main():
 
-#function that asks for user name
-  def hello_func():
-    name = input(str("Enter your name:"))
-    return name
+r = float(input("\nEnter a radius:"))
+def vol(r):
+  """ returns volume of  a sphere with radius r """
+  v = (4.0/3.0)* 3.14 * r**3
+  return v
 
-#function that asks for user age
-  def userAge():
-    age = int(input("Please enter your age:"))
-    return age
+volume = vol(r)
 
-#prints user input of both functions 
-  print("Greetings" , hello_func() , " you are " , userAge() , "years old!")
+print("\nThe volume of the sphere is:", round(volume,2),"\n")
 
-main()
 
