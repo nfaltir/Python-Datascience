@@ -6,13 +6,13 @@ import pandas as pd
 
 
 #A dictionary of webpages to scrap
-url = {"https://www.trustpilot.com/review/surveymonkey.com",
+url = ["https://www.trustpilot.com/review/surveymonkey.com",
 "https://www.trustpilot.com/review/surveymonkey.com?page=1",
 "https://www.trustpilot.com/review/surveymonkey.com?page=2",
 "https://www.trustpilot.com/review/surveymonkey.com?page=3",
 "https://www.trustpilot.com/review/surveymonkey.com?page=4",
 "https://www.trustpilot.com/review/surveymonkey.com?page=5",
-"https://www.trustpilot.com/review/surveymonkey.com?page=6"}
+"https://www.trustpilot.com/review/surveymonkey.com?page=6"]
 
 for pages in url:
   response = requests.get(pages)
