@@ -4,8 +4,6 @@ import lxml
 import string
 import pandas as pd
 
-
-#A dictionary of webpages to scrap
 url = {"https://www.trustpilot.com/review/surveymonkey.com",
 "https://www.trustpilot.com/review/surveymonkey.com?page=1",
 "https://www.trustpilot.com/review/surveymonkey.com?page=2",
