@@ -20,7 +20,7 @@ for pages in url:
   #data = soup.findAll('div',class_='consumer-information__name')
   data1=soup.findAll('p', class_='review-content__text') 
 
-  for stars in data1:
-    print(stars.text)
+  for review_comments in data1:
+    print(review_comments.text)
 
 

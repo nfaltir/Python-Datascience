@@ -12,7 +12,21 @@ url = ["https://www.trustpilot.com/review/surveymonkey.com",
 "https://www.trustpilot.com/review/surveymonkey.com?page=5",
 "https://www.trustpilot.com/review/surveymonkey.com?page=6"]
 
+
 for pages in url:
-  print(pages)
+  response = requests.get(pages)
+  soup = BeautifulSoup(response.text, 'lxml')
+  #data = soup.findAll('div',class_='consumer-information__name')
+  review_title=soup.findAll('p', class_='review-content__text') 
+
+  for all_reviews in review_title:
+    print(all_reviews.text)
+   
+    
+  
+  
+
+  
+
 
 
