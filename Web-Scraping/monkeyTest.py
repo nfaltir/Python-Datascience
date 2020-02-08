@@ -21,6 +21,7 @@ for pages in url:
 
   for all_reviews in review_title:
     print(all_reviews.text)
+    
    
     
   
